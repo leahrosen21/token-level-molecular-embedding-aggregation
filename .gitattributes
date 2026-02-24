@@ -1,3 +1,4 @@
 BACE_best_model.zip filter=lfs diff=lfs merge=lfs -text
 BBBP_best_model.zip filter=lfs diff=lfs merge=lfs -text
 CLINTOX_best_model.zip filter=lfs diff=lfs merge=lfs -text
+ESOL_best_model.zip filter=lfs diff=lfs merge=lfs -text
