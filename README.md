@@ -30,8 +30,7 @@ There are two ways to upload datasets, depending on where the code is executed:
 - Create two subfolders inside it: cls (for classification) and reg (for regression).
 - Upload the CSV files from the repository into their respective folders.
 
-Expected Directory Structure:
-### Project Structure
+### Expected Directory Structure:
 ```plaintext
 My Drive/
 └── deep-learning-final-project/
@@ -70,12 +69,12 @@ After you have activated your preferred loading function (either Google Drive or
 3. Model Architecture Setup: Defines the CustomModelForSequenceClassification which extracts the [CLS] token and uses the MolformerClassificationHead class.
 4. Visualization of motivation for this projects: A comparison of the pooled embedding vs. [CLS] token embedding.
 5. Dataset Creation: Implements the SMILESDataset class for canonicalizing SMILES strings.
-6. Implementation of required functions for fine-tuning and hyper-parameter search.
+6. Implementation of required functions for fine-tuning and hyperparameter search.
 7. Hyperparameter Search: Configuration for W&B sweeps to find optimal training parameters.
 8. Fine-tuning: The execution loop for training the model on the selected tasks.
 
 ### Results & Artifacts
-- Analysis: For more details on the approach and findings, see the [download the full report](./IEM%20Deep%20Learning%20-%20Final%20Project%20Report%20(Group%2014).pdf)
+- Analysis: For more details on the approach and findings, see the [download the full report](./IEM%20Deep%20Learning%20-%20Final%20Project%20Report%20(Group%2014).pdf).
 - Best Models: The most optimized model weights and configurations are included in the zipped files within this repository.
 
 
