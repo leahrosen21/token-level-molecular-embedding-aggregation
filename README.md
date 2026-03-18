@@ -41,7 +41,7 @@ Note: This project is currently optimized for binary classification and regressi
 
 ### Data Upload Methods:
 There are two ways to upload datasets, depending on where the code is executed:
-1. Google Drive (default): To ensure the notebook loads the datasets correctly, please organize your Google Drive as follows:
+1. Google Drive (default). To ensure the notebook loads the datasets correctly, please organize your Google Drive as follows:
 - Create a main folder named deep-learning-final-project.
 - Create two subfolders inside it: cls (for classification) and reg (for regression).
 - Upload the CSV files from the repository into their respective folders.
