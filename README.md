@@ -79,7 +79,7 @@ After you have activated your preferred loading function (either Google Drive or
 8. Fine-tuning: The execution loop for training the model on the selected tasks.
 
 ### Results & Artifacts
-- Analysis: For more details on the approach and findings, see the [download the full report](./Project%20Report.pdf).
+- Analysis: For more details on the approach and findings, see the [full report](./Project%20Report.pdf).
 - Best Models: The most optimized model weights and configurations are included in the zipped files within this repository.
 
 
