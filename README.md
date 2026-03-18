@@ -75,9 +75,9 @@ My Drive/
 
 2. To switch from the Google Drive version to the local upload version, follow these steps:
    - Disable the Google Drive blocks: Under the section "Loading and creating the datasets", comment out the very first two code blocks so you don't keep getting prompted to mount your Drive.
-   - Activate the local upload block: Uncomment the entire following block.
+   - Activate the local upload block: Uncomment the entire following block and run it.
 
-After you have activated your preferred loading function (either Google Drive or Local Upload), you can proceed with the rest of the notebook.
+After you have activated your preferred loading function (either Google Drive or local upload), you can proceed with the rest of the notebook.
 
 ---
 
