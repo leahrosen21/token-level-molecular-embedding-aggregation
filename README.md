@@ -32,7 +32,8 @@ wandb.login(key="YOUR_API_KEY")
 We evaluate the model on several benchmarks from [MoleculeNet](https://moleculenet.org/datasets-1):
 - Classification: BBBP, BACE, and ClinTox.
 - Regression: ESOL, FreeSolv, and Lipophilicity (LIPO).
-  
+
+The datasets used in this project are provided in the repository under [datasets.zip](./datasets.zip).
 Note: This project is currently optimized for binary classification and regression. Extension to multiclass tasks is identified for future work.
 
 ---
