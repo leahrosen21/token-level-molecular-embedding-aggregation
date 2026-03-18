@@ -25,9 +25,10 @@ wandb.login(key="YOUR_API_KEY")
 We evaluate the model on several benchmarks from [MoleculeNet](https://moleculenet.org/datasets-1):
 - Classification: BBBP, BACE, and ClinTox.
 - Regression: ESOL, FreeSolv, and Lipophilicity (LIPO).
+  
 Note: This project is currently optimized for binary classification and regression. Extension to multiclass tasks is identified for future work.
 
-### Data Upload Methods
+### Data Upload Methods:
 There are two ways to upload datasets, depending on where the code is executed:
 1. Google Drive (default): To ensure the notebook loads the datasets correctly, please organize your Google Drive as follows:
 - Create a main folder named deep-learning-final-project.
