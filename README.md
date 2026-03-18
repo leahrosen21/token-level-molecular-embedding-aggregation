@@ -81,7 +81,7 @@ After you have activated your preferred loading function (either Google Drive or
 
 ### The provided [Jupyter notebook](./Token_Level_Aggregation_on_Molecular_Property_Prediction_Notebook.ipynb) is organized into the following sections:
 1. Installing and importing required packages: Sets up the environment with specific version pinning.
-2. Validating RDKit: A sanity check to ensure the chemical informatics tools are properly installed.
+2. Validating [RDKit](https://www.rdkit.org/): A sanity check to ensure the chemical informatics tools are properly installed.
 3. Model Architecture Setup: Defines the CustomModelForSequenceClassification which extracts the [CLS] token and uses the MolformerClassificationHead class.
 4. Visualization of motivation for this projects: A comparison of the pooled embedding vs. [CLS] token embedding.
 5. Dataset Creation: Implements the SMILESDataset class for canonicalizing SMILES strings.
