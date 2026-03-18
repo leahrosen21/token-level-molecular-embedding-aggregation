@@ -34,6 +34,7 @@ We evaluate the model on several benchmarks from [MoleculeNet](https://moleculen
 - Regression: ESOL, FreeSolv, and Lipophilicity (LIPO).
 
 The datasets used in this project are provided in the repository under [datasets.zip](./datasets.zip).
+
 Note: This project is currently optimized for binary classification and regression. Extension to multiclass tasks is identified for future work.
 
 ---
