@@ -1,6 +1,10 @@
 # Impact of Token-Level Aggregation on Molecular Property Prediction
 This repository extends the original [MolFormer](https://github.com/IBM/molformer) (Ross et al., 2022) molecular Large Language Model (LLM) for supervised molecular property prediction. It adapts pretrained molecular embeddings for downstream classification using [CLS]-token representations instead of mean pooling, with task-specific fine-tuning and comprehensive evaluation.
 
+
+### Training Pipeline
+The training pipeline is implemented using the [Hugging Face Transformers](https://huggingface.co/docs/transformers/en/index) library, leveraging the [Trainer](https://huggingface.co/docs/transformers/en/main_classes/trainer) API and TrainingArguments to create a standardized and efficient workflow. This framework handles the full training loop, including optimization with various optimizers and learning rate scheduling, automatic evaluation of task-specific metrics, and seamless logging through [Weights & Biases](https://wandb.ai/site/) for real-time monitoring. In addition, it supports mixed-precision training and gradient accumulation, which are essential for efficiently fine-tuning large models under limited GPU resources, while maintaining a reproducible and scalable experimental setup.
+
 ### Environment Requirements:
 - Hardware: It is strongly advised to run this project on a GPU, as it involves fine-tuning and training an LLM. [Google Colab](https://colab.research.google.com/) is a suitable environment for running this project, particularly for executing a limited number of training epochs or focusing on a specific subset of tasks at a time. Due to the computational demands of fine-tuning the model, users should be mindful of session timeouts and resource limits when executing extended training runs.
 - Runtime: If using Google Colab, ensure your runtime version is 2026.01.
@@ -63,7 +67,7 @@ My Drive/
 
 After you have activated your preferred loading function (either Google Drive or Local Upload), you can proceed with the rest of the notebook.
 
-### The Jupyter Notebook is organized into the following sections:
+### The provided [Jupyter notebook](./Token_Level_Aggregation_on_Molecular_Property_Prediction_Notebook.ipynb) is organized into the following sections:
 1. Installing and importing required packages: Sets up the environment with specific version pinning.
 2. Validating RDKit: A sanity check to ensure the chemical informatics tools are properly installed.
 3. Model Architecture Setup: Defines the CustomModelForSequenceClassification which extracts the [CLS] token and uses the MolformerClassificationHead class.
@@ -74,7 +78,7 @@ After you have activated your preferred loading function (either Google Drive or
 8. Fine-tuning: The execution loop for training the model on the selected tasks.
 
 ### Results & Artifacts
-- Analysis: For more details on the approach and findings, see the [download the full report](./IEM%20Deep%20Learning%20-%20Final%20Project%20Report%20(Group%2014).pdf).
+- Analysis: For more details on the approach and findings, see the [download the full report](./Project%20Report.pdf).
 - Best Models: The most optimized model weights and configurations are included in the zipped files within this repository.
 
 
